@@ -9,11 +9,11 @@ gender = input("What character do you want to be (Boy/Girl)?: ")
 if(gender.upper()=="BOY"):
     name = input("\nChoose a suitable name for your character: ")
     print(f"Hey {name}! Welcome to our latest game")
-    choice = input(f"Hey {name}! where do you want to start your journey as a Millionaire or Employeer: ")
+    choice = input(f"Hey {name}! where do you want to start your journey as a Millionaire or Employer: ")
     if(choice.upper()=="MILLIONAIRE"):
         print(f"{name.upper()} You are too greedy!\n Due to too much greediness you have been deleted by system")
         
-    elif(choice.upper()=="EMPLOYEER"):
+    elif(choice.upper()=="EMPLOYER"):
         print(f"{name} your journey starts now")
         print(f'''As an employee {name.upper()}, you are working at midnight at a company.
               Years have passed and now you are thinking of falling in love. Since you know one person
@@ -56,7 +56,7 @@ if(gender.upper()=="BOY"):
                     
                     """
                 else:                    
-                    print(f"{name.upper()}, you have been deleted by system since you have no interest in upcomming story")
+                    print(f"{name.upper()}, you have been deleted by system since you have no interest in upcoming story")
                 
                             
         else:
@@ -72,7 +72,7 @@ if(gender.upper()=="BOY"):
 elif(gender.upper()=="GIRL"):
     name = input("Choose a suitable name for your character: ")
     print(f"Hey {name}! Welcome to our latest game")
-    choice = input(f"Hey {name}! where do you want to start your journey as a Millionaire or Begger: ")
+    choice = input(f"Hey {name}! where do you want to start your journey as a Millionaire or Beggar: ")
     if(choice.upper()=="MILLIONAIRE"):
         print(f"{name.upper()} You are too greedy!\n Due to too much greediness you have been deleted by system")
     elif(choice.upper()=="BEGGER"):
